@@ -195,6 +195,7 @@ input{
     color: #ffffff;
     border: transparent;
     border-radius: 5px;
+    cursor: pointer;
 }
 #question{
     width: 15px;
