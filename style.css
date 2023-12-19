@@ -44,6 +44,7 @@ main{
     align-items:center;
     margin: 0 auto;
     background-color: #ffffff;
+    margin-top: 20px;
     border-radius: 2px;
 }
 label{
@@ -233,7 +234,6 @@ input{
 }
 .checkers{
     margin-top: 30px;
-    border: 1px solid black;
 }
 .checkers > div{
     display: flex;
