@@ -28,9 +28,10 @@ article{
 nav{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px;
     height: 73px;
-    width: 1360px;
+    max-width: 1360px;
     align-items: center;
     border-bottom: 2px solid black;
     margin: 0 auto;
@@ -73,6 +74,7 @@ input{
     width: 476px;
     height: 40px;
     display: flex;
+    flex-wrap: wrap;
     /* border: 1px solid black; */
     align-items: center;
     margin-bottom: 20px;
@@ -102,7 +104,7 @@ input{
     background-color:#ffffff ;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    width: 892px;
+    max-width: 892px;
     height: 795px;
     box-shadow: 0px 5px 15px 0px #0000000D;
     box-shadow: 0px 15px 35px 0px #2B404E18;
